@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PaardrijCompetitie</title>
+    <link rel="stylesheet" type="text/css" href="css/css.css">
+
+</head>
+<body>
+<header>
+    <nav>
+        <ul>
+            <li> <a href="index.html"> Home</a> </li>
+            <li> <a href="paarden_toevoeging.html"> Paardenlijst</a> </li>
+            <li> <a href="contact.html"> Contact</a> </li>
+            <li> <a href="result.jsp"> result</a> </li>
+        </ul>
+    </nav>
+</header>
+<form>
+    <label for="voornaam">voornaam</label>
+    <input type="text" id="voornaam" name="voornaam" placeholder="je naam.." required>
+
+    <label for="achternaam">achternaam</label>
+    <input type="text" id="achternaam" name="achternaam" placeholder="je achternaam.." required>
+
+    <label for="datum">datum</label>
+    <input type="date" id="datum" name="datum" placeholder="gewenste datum.." required>
+
+    <label for="reden">reden</label>
+    <select id="reden" name="reden" required>
+        <option value="probleem">probleem</option>
+        <option value="product kopen">product kopen</option>
+        <option value="afspraak maken">afspraak maken</option>
+    </select>
+
+    <label for="naam product">naam product</label>
+    <textarea id="naam product" name="naam product" placeholder="klacht of opmerking die u heeft over onze organisatie of een onderdeel ervan..." style="height:200px"></textarea>
+
+    <button type="submit">doorsturen</button>
+</form>
+<footer>
+    <address>
+        <p>Robin Vanderborght <a href="mailto robinvanderborght@hotmail.com"> robinvanderborght@hotmail.Com</a> </p>
+        <p>Neerijsebaan2 nr2 Sint-Joris-Weert België</p>
+    </address>
+    <p>Zangersheide™</p>
+</footer>
+
+</body>
+</html>

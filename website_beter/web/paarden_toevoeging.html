@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PaardrijCompetitie</title>
+    <link rel="stylesheet" type="text/css" href="css/css.css">
+
+</head>
+<body>
+<header>
+    <nav>
+        <ul>
+            <li> <a href="index.html"> Home</a> </li>
+            <li> <a href="paarden_toevoeging.html"> Paardenlijst</a> </li>
+            <li> <a href="contact.html"> Contact</a> </li>
+            <li> <a href="result.jsp"> result</a> </li>
+        </ul>
+    </nav>
+    <h1>Paarden Toevoeging</h1>
+</header>
+<form name="paarden_database" method="post" action="src/Servlet/Servlet">
+    naam: <input type="text" name="naam"required/> <br/>
+    ruiter: <input type="text" name="ruiter"required/> <br/>
+    leeftijd: <input type="text" name="leeftijd"required/> <br/>
+    <input type="submit" value="database" />
+</form>
+<footer>
+    <address>
+        <p>Robin Vanderborght <a href="mailto robinvanderborght@hotmail.com"> robinvanderborght@hotmail.Com</a> </p>
+        <p>Neerijsebaan2 nr2 Sint-Joris-Weert België</p>
+    </address>
+    <p>Zangersheide™</p>
+</footer>
+
+
+
+</body>
+</html>
